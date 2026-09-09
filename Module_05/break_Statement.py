@@ -9,9 +9,13 @@
 
 # numbers =[10,20,30,40,50]
 # for i in numbers :
-#     if i == 30:
+#     if i == 70:
 #         print ("Number is Found")
 #         break
+# else:
+#        print("Number is Not Found")
+      
+
 
 
 
@@ -41,7 +45,14 @@
 #     print(i)
 
 # Write a pythn program that continuously takes number from the usser and stop
-# when the user enters 0 .
+# when the user enters 0 . 
+
+# while True :
+#     num = int(input("Enter a number :"))
+#     if num == 0 :
+#         break
+#     print ("You Entered a Number is :",num)
+
 
 
 
