@@ -1,11 +1,31 @@
 ﻿Method,काम (Hindi),Example (English)
+
+
 "get(key, default)","Key की value safely निकालता है, missing हो तो default देता है","student.get(""age"", 0)"
+
+
 keys(),सारे keys दिखाता है,student.keys()
+
+
 values(),सारे values दिखाता है,student.values()
+
+
 items(),Key-value pairs दिखाता है,student.items()
+
+
 update(dict),Keys add/modify करता है,"student.update({""age"": 23})"
+
+
 pop(key),Key हटाता है और उसकी value return करता है,"student.pop(""age"")"
+
+
 popitem(),Last inserted key-value हटाता है,student.popitem()
+
+
 clear(),Dictionary खाली कर देता है,student.clear()
+
+
 copy(),Dictionary की shallow copy बनाता है,new = student.copy()
+
+
 "setdefault(key, default)",Agar key है → पुरानी value देता है; Agar नहीं है → default value डाल देता है,"student.setdefault(""grade"", ""A"")"
